@@ -1,0 +1,9 @@
+
+.wrapper {
+  max-width: 1260px;
+  margin: 0 auto;
+}
+
+.MainContainer {
+  display: flex;
+}

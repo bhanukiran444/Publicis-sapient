@@ -1,0 +1,44 @@
+.ProductTileContainer {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-column-gap: 16px;
+  grid-row-gap: 16px;
+  justify-content: center;
+  margin: auto;
+  margin-bottom: 55px;
+}
+
+@media only screen and (max-width: 1024px) {
+  .ProductTileContainer {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+@media only screen and (max-width: 700px) {
+  .ProductTileContainer {
+    grid-template-columns: repeat(1, 1fr);
+  }
+}
+
+.TileContainer {
+  background: #fff;
+  padding: 10px;
+  max-width: 240px;
+}
+
+.TileContainer img {
+  width: 100%;
+  background: #f6f6f6;
+}
+
+.TileContainer p {
+  font-weight: bold;
+}
+.TileContainer span, .TileContainer ul li  {
+  color: #46497c;
+  font-weight: normal;
+}
+
+.TileHeader {
+  color: #46497c;
+  font-weight: bold;
+}
