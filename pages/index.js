@@ -1,21 +1,21 @@
-import Head from 'next/head'
-import styles from '../styles/Home.module.css'
-
+import FiltersOverview from "../components/FiltersOverview";
 export default function Home() {
+  // console.log(data)
+
   return (
-    <div className={styles.container}>
-      <Head>
-        <title>SpaceX Launch Pragrams</title>
-      </Head>
-
-      <main className={styles.main}>
-      Hey i am working
-
-      </main>
-
-      <footer className={styles.footer}>
-        <p>Developer: Bhanukiran S</p>
-      </footer>
+    <div>
+      <FiltersOverview />
     </div>
-  )
+  );
 }
+
+// export const getStaticProps = async () => {
+//   const res = await fetch('https://api.spacexdata.com/v3/launches?limit=100')
+//   const data = await res.json()
+
+//   return {
+//     props: {
+//       data
+//     }
+//   }
+// }
