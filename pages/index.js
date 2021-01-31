@@ -1,13 +1,14 @@
 import FiltersOverview from "../components/FiltersOverview";
 import ProductTiles from "../components/ProductTiles";
 import styles from '../styles/Layout.module.css'
+
+
 export default function Home({ data }) {
-  console.log(data);
 
   return (
     <div className={styles.MainContainer}>
       <FiltersOverview />
-      <ProductTiles data={data}>rockets</ProductTiles>
+      <ProductTiles data={data} />
     </div>
   );
 }

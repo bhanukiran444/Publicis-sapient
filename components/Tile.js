@@ -22,7 +22,7 @@ export const Tile = ({ product }) => {
       </p>
       <p>
         Successful Landing:{" "}
-        <span>{product.launch_landing ? "True" : "False"}</span>{" "}
+        <span>{product.rocket?.first_stage?.cores[0]?.land_success ? "True" : "False"}</span>{" "}
       </p>
     </div>
   );
