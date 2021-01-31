@@ -78,8 +78,6 @@ const FiltersOverview = () => {
   const [state, dispatch] = useReducer(reducer, initialState);
   const router = useRouter();
   const handleFilterClick = (data) => {
-    console.log(state);
-    console.log(data);
     let queryString = "";
     if (typeof data.launch_success !== "undefined") {
       dispatch({ type: "LAUNCH_SUCCESS_FILTER_SELECT_SWITCH", data });
