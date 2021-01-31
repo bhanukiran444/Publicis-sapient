@@ -12,4 +12,7 @@
   .MainContainer {
     flex-direction: column;
   }
+  .wrapper h3 {
+    text-align: center;
+  }
 }

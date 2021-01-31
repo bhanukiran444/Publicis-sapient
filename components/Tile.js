@@ -3,7 +3,7 @@ import styles from "../styles/ProductTiles.module.css";
 export const Tile = ({ product }) => {
   return (
     <div className={styles.TileContainer}>
-      <img src={product.links.mission_patch_small} />
+      <img src={product.links.mission_patch_small} alt={product.mission_name} />
       <p className={styles.TileHeader}>
         {product.mission_name} #{product.flight_number}
       </p>
