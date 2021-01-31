@@ -1,7 +1,7 @@
 
 # SpaceX Launch Programs
 
-## Demo Deployed to Vercel: https://publicis-sapient.vercel.app/  
+## Demo: https://publicis-sapient.vercel.app/  
 
 ## Tech Stack & Approach
 
@@ -44,6 +44,6 @@ Open [http://localhost:3000](http://localhost:3000) with your browser to see the
 
 Thanks for the opportunity
 
-Thanks & regards,
+Thanks & regards,  
 Bhanukiran
 
