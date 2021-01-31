@@ -1,8 +1,7 @@
 
 # SpaceX Launch Programs
 
-## Demo  
-Deployed to Vercel: https://publicis-sapient.vercel.app/  
+## Demo Deployed to Vercel: https://publicis-sapient.vercel.app/  
 
 ## Tech Stack & Approach
 
@@ -40,4 +39,11 @@ To run the App in local development server:
 npm i && npm run dev
 ```
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+
+---
+
+Thanks for the opportunity
+
+Thanks & regards,
+Bhanukiran
 
